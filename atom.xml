@@ -4,7 +4,7 @@
   <title><![CDATA[Doug Daniels Dev Blog]]></title>
   <link href="http://dougnukem.github.com/atom.xml" rel="self"/>
   <link href="http://dougnukem.github.com/"/>
-  <updated>2012-10-01T11:30:56-05:00</updated>
+  <updated>2012-10-01T16:09:27-05:00</updated>
   <id>http://dougnukem.github.com/</id>
   <author>
     <name><![CDATA[Doug Daniels]]></name>
@@ -14,71 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hello Octopress and Github World]]></title>
-    <link href="http://dougnukem.github.com/blog/2011/09/25/hello-octopress-and-github-world/"/>
-    <updated>2011-09-25T18:23:00-05:00</updated>
-    <id>http://dougnukem.github.com/blog/2011/09/25/hello-octopress-and-github-world</id>
-    <content type="html"><![CDATA[<p>This is the first blog post.</p>
-
-<p>Gist embed example:</p>
-
-<div><script src='https://gist.github.com/1241317.js?file='></script>
-<noscript><pre><code>public class BlockingQueue implements Queue {
- 
-    private java.util.Queue queue = new java.util.LinkedList();
- 
-    /**
-     * Make a blocking Dequeue call so that we'll only return when the queue has
-     * something on it, otherwise we'll wait until something is put on it.
-     * 
-     * This will return null if the thread wait() call is interrupted.
-     */
-    public synchronized Object dequeue() {
-        Object msg = null;
-        while (queue.isEmpty()) {
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                // Error return the client a null item
-                return msg;
-            }
-        }
-        msg = queue.remove();
-        return msg;
-    }
- 
-    /**
-     * Enqueue will add an object to this queue, and will notify any waiting
-     * threads that there is an object available.
-     */
-    public synchronized void enqueue(Object o) {
-        queue.add(o);
-        // Wake up anyone waiting for something to be put on the queue.
-        notifyAll();
-    }
- 
-}</code></pre></noscript></div>
-
-
-<p>Testing a codeblock snippet:</p>
-
-<figure class='code'><figcaption><span>Testing out some AS3   </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='as3'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="n">PlayerDTO</span> <span class="kd">extends</span> <span class="n">DataTransferObject</span> <span class="o">{</span>
-</span><span class='line'>    <span class="kd">public</span> <span class="kd">override</span> <span class="kd">function </span><span class="nf">readObject</span><span class="o">(</span><span class="n">dataInput</span><span class="o">:</span><span class="kt">IDataInput</span><span class="o">)</span> <span class="o">:</span> <span class="kt">*</span> <span class="o">{</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'>    <span class="o">}</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
+    <title type="html"><![CDATA[Blog returns?]]></title>
+    <link href="http://dougnukem.github.com/blog/2012/10/01/blog-returns/"/>
+    <updated>2012-10-01T11:34:00-05:00</updated>
+    <id>http://dougnukem.github.com/blog/2012/10/01/blog-returns</id>
+    <content type="html"><![CDATA[<p>I haven&#8217;t written in my blog in YEARS, but hopefully I&#8217;ll be restoring this soon&#8230;</p>
 ]]></content>
   </entry>
   

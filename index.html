@@ -9,7 +9,8 @@
   <meta name="author" content="Doug Daniels">
 
   
-  <meta name="description" content="This is the first blog post. Gist embed example: public class BlockingQueue implements Queue { private java.util.Queue queue = new java.util. &hellip;">
+  <meta name="description" content="I haven&#8217;t written in my blog in YEARS, but hopefully I&#8217;ll be restoring this soon&#8230;
+">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -83,7 +84,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2011/09/25/hello-octopress-and-github-world/">Hello Octopress and Github World</a></h1>
+      <h1 class="entry-title"><a href="/blog/2012/10/01/blog-returns/">Blog Returns?</a></h1>
     
     
       <p class="meta">
@@ -99,74 +100,14 @@
   
 
 
-<time datetime="2011-09-25T18:23:00-05:00" pubdate data-updated="true">Sep 25<span>th</span>, 2011</time>
+<time datetime="2012-10-01T11:34:00-05:00" pubdate data-updated="true">Oct 1<span>st</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>This is the first blog post.</p>
-
-<p>Gist embed example:</p>
-
-<div><script src='https://gist.github.com/1241317.js?file='></script>
-<noscript><pre><code>public class BlockingQueue implements Queue {
- 
-    private java.util.Queue queue = new java.util.LinkedList();
- 
-    /**
-     * Make a blocking Dequeue call so that we'll only return when the queue has
-     * something on it, otherwise we'll wait until something is put on it.
-     * 
-     * This will return null if the thread wait() call is interrupted.
-     */
-    public synchronized Object dequeue() {
-        Object msg = null;
-        while (queue.isEmpty()) {
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                // Error return the client a null item
-                return msg;
-            }
-        }
-        msg = queue.remove();
-        return msg;
-    }
- 
-    /**
-     * Enqueue will add an object to this queue, and will notify any waiting
-     * threads that there is an object available.
-     */
-    public synchronized void enqueue(Object o) {
-        queue.add(o);
-        // Wake up anyone waiting for something to be put on the queue.
-        notifyAll();
-    }
- 
-}</code></pre></noscript></div>
-
-
-<p>Testing a codeblock snippet:</p>
-
-<figure class='code'><figcaption><span>Testing out some AS3   </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='as3'><span class='line'><span class="kd">public</span> <span class="kd">class</span> <span class="n">PlayerDTO</span> <span class="kd">extends</span> <span class="n">DataTransferObject</span> <span class="o">{</span>
-</span><span class='line'>    <span class="kd">public</span> <span class="kd">override</span> <span class="kd">function </span><span class="nf">readObject</span><span class="o">(</span><span class="n">dataInput</span><span class="o">:</span><span class="kt">IDataInput</span><span class="o">)</span> <span class="o">:</span> <span class="kt">*</span> <span class="o">{</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'>    <span class="o">}</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
+  <div class="entry-content"><p>I haven&#8217;t written in my blog in YEARS, but hopefully I&#8217;ll be restoring this soon&#8230;</p>
 </div>
   
   
@@ -187,7 +128,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2011/09/25/hello-octopress-and-github-world/">Hello Octopress and Github World</a>
+        <a href="/blog/2012/10/01/blog-returns/">Blog returns?</a>
       </li>
     
   </ul>

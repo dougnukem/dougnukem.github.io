@@ -4,7 +4,7 @@
   <title><![CDATA[Doug Daniels Dev Blog]]></title>
   <link href="http://dougnukem.github.com/atom.xml" rel="self"/>
   <link href="http://dougnukem.github.com/"/>
-  <updated>2012-10-01T17:20:15-05:00</updated>
+  <updated>2012-10-01T17:20:35-05:00</updated>
   <id>http://dougnukem.github.com/</id>
   <author>
     <name><![CDATA[Doug Daniels]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blog returns?]]></title>
+    <link href="http://dougnukem.github.com/blog/2012/10/01/blog-returns/"/>
+    <updated>2012-10-01T11:34:00-05:00</updated>
+    <id>http://dougnukem.github.com/blog/2012/10/01/blog-returns</id>
+    <content type="html"><![CDATA[<p>I haven&#8217;t written in my blog in YEARS, but I plan on restarting&#8230;.</p>
+
+<p>For now the only page with relevant information is the <a href="http://dougnukem.github.com/portfolio">portfolio</a>.</p>
+]]></content>
+  </entry>
   
 </feed>
